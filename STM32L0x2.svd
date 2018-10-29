@@ -12,7 +12,7 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
     <endian>little</endian>
     <mpuPresent>false</mpuPresent>
     <fpuPresent>false</fpuPresent>
-    <nvicPrioBits>3</nvicPrioBits>
+    <nvicPrioBits>2</nvicPrioBits>
     <vendorSystickConfig>false</vendorSystickConfig>
   </cpu>
   <!--Bus Interface Properties-->
@@ -11026,7 +11026,7 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>LPUART12RST</name>
+              <name>USART2RST</name>
               <description>UART2 reset</description>
               <bitOffset>17</bitOffset>
               <bitWidth>1</bitWidth>

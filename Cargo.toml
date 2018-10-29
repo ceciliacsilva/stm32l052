@@ -4,3 +4,13 @@ version = "0.1.0"
 authors = ["Cecília Carneiro <cecilia.carneiroesilva@gmail.com>"]
 
 [dependencies]
+bare-metal = "0.2.0"
+cortex-m = { git = "https://github.com/ceciliacsilva/cortex-m", version = "0.5.7" }
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.6.4"
+
+[features]
+rt = ["cortex-m-rt/device"]

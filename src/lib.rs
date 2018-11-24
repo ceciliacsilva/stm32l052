@@ -1057,7 +1057,7 @@ impl Deref for STK {
 }
 #[doc = "SysTick timer"]
 pub mod stk;
-#[allow(private_no_mangle_statics)]
+// #[allow(private_no_mangle_statics)]
 #[no_mangle]
 static mut DEVICE_PERIPHERALS: bool = false;
 #[doc = r" All the peripherals"]

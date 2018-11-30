@@ -127,7 +127,7 @@ impl ADCRSTR {
     }
 }
 #[doc = r" Value of the field"]
-pub struct TM12RSTR {
+pub struct TIM22RSTR {
     bits: bool,
 }
 impl TIM22RSTR {
@@ -398,7 +398,7 @@ impl R {
     }
     #[doc = "Bit 5 - TIM22 timer reset"]
     #[inline]
-    pub fn tim22rst(&self) -> TM12RSTR {
+    pub fn tim22rst(&self) -> TIM22RSTR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 5;

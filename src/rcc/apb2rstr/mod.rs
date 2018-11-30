@@ -130,7 +130,7 @@ impl ADCRSTR {
 pub struct TM12RSTR {
     bits: bool,
 }
-impl TM12RSTR {
+impl TIM22RSTR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -282,10 +282,10 @@ impl<'a> _ADCRSTW<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _TM12RSTW<'a> {
+pub struct _TIM22RSTW<'a> {
     w: &'a mut W,
 }
-impl<'a> _TM12RSTW<'a> {
+impl<'a> _TIM22RSTW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -398,13 +398,13 @@ impl R {
     }
     #[doc = "Bit 5 - TIM22 timer reset"]
     #[inline]
-    pub fn tm12rst(&self) -> TM12RSTR {
+    pub fn tim22rst(&self) -> TM12RSTR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 5;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        TM12RSTR { bits }
+        TIM22RSTR { bits }
     }
     #[doc = "Bit 2 - TIM21 timer reset"]
     #[inline]
@@ -461,8 +461,8 @@ impl W {
     }
     #[doc = "Bit 5 - TIM22 timer reset"]
     #[inline]
-    pub fn tm12rst(&mut self) -> _TM12RSTW {
-        _TM12RSTW { w: self }
+    pub fn tim22rst(&mut self) -> _TM12RSTW {
+        _TIM22RSTW { w: self }
     }
     #[doc = "Bit 2 - TIM21 timer reset"]
     #[inline]

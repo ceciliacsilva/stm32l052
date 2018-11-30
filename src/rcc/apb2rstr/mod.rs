@@ -461,7 +461,7 @@ impl W {
     }
     #[doc = "Bit 5 - TIM22 timer reset"]
     #[inline]
-    pub fn tim22rst(&mut self) -> _TM12RSTW {
+    pub fn tim22rst(&mut self) -> _TIM22RSTW {
         _TIM22RSTW { w: self }
     }
     #[doc = "Bit 2 - TIM21 timer reset"]

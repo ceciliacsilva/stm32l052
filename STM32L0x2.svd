@@ -10947,7 +10947,7 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>TM12RST</name>
+              <name>TIM22RST</name>
               <description>TIM22 timer reset</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>

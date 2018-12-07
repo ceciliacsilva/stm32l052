@@ -74,7 +74,7 @@ impl R {
     pub fn bits(&self) -> u32 {
         self.bits
     }
-    #[doc = "Bits 0:31 - Data Output Register (LSB key [31:0])"]
+    #[doc = "Bits 0:31 - Data Output Register (LSB key \\[31:0\\])"]
     #[inline]
     pub fn aes_keyr0(&self) -> AES_KEYR0R {
         let bits = {
@@ -97,7 +97,7 @@ impl W {
         self.bits = bits;
         self
     }
-    #[doc = "Bits 0:31 - Data Output Register (LSB key [31:0])"]
+    #[doc = "Bits 0:31 - Data Output Register (LSB key \\[31:0\\])"]
     #[inline]
     pub fn aes_keyr0(&mut self) -> _AES_KEYR0W {
         _AES_KEYR0W { w: self }

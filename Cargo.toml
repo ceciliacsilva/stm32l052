@@ -1,6 +1,6 @@
 [package]
 name = "stm32l052"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Cecília Carneiro <cecilia.carneiroesilva@gmail.com>"]
 
 [dependencies]

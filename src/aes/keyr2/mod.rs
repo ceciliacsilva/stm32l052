@@ -74,7 +74,7 @@ impl R {
     pub fn bits(&self) -> u32 {
         self.bits
     }
-    #[doc = "Bits 0:31 - AES key register (key [95:64])"]
+    #[doc = "Bits 0:31 - AES key register (key \\[95:64\\])"]
     #[inline]
     pub fn aes_keyr2(&self) -> AES_KEYR2R {
         let bits = {
@@ -97,7 +97,7 @@ impl W {
         self.bits = bits;
         self
     }
-    #[doc = "Bits 0:31 - AES key register (key [95:64])"]
+    #[doc = "Bits 0:31 - AES key register (key \\[95:64\\])"]
     #[inline]
     pub fn aes_keyr2(&mut self) -> _AES_KEYR2W {
         _AES_KEYR2W { w: self }

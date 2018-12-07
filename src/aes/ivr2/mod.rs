@@ -74,7 +74,7 @@ impl R {
     pub fn bits(&self) -> u32 {
         self.bits
     }
-    #[doc = "Bits 0:31 - Initialization Vector Register (IVR [95:64])"]
+    #[doc = "Bits 0:31 - Initialization Vector Register (IVR \\[95:64\\])"]
     #[inline]
     pub fn aes_ivr2(&self) -> AES_IVR2R {
         let bits = {
@@ -97,7 +97,7 @@ impl W {
         self.bits = bits;
         self
     }
-    #[doc = "Bits 0:31 - Initialization Vector Register (IVR [95:64])"]
+    #[doc = "Bits 0:31 - Initialization Vector Register (IVR \\[95:64\\])"]
     #[inline]
     pub fn aes_ivr2(&mut self) -> _AES_IVR2W {
         _AES_IVR2W { w: self }
